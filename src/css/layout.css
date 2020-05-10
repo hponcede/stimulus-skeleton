@@ -1,0 +1,17 @@
+.container {
+	@apply w-full m-auto px-5;
+
+	@screen md {
+		@apply max-w-5xl;
+	}
+}
+
+.video-embed {
+	@apply w-full h-0 relative;
+	padding-top: 56.25%;
+
+	> * {
+		@apply absolute inset-0 w-full h-full;
+	}
+
+}
