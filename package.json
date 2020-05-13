@@ -1,7 +1,7 @@
 {
-  "name": "plus-jamais",
+  "name": "stimulus-skeleton",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "build": "dotenv cross-var -- parcel build src/index.html --public-url %PUBLIC_PATH%  --experimental-scope-hoisting",
     "dev": "parcel src/index.html --log-level 4",
