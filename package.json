@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "build": "dotenv cross-var -- parcel build src/index.html --public-url %PUBLIC_PATH%  --experimental-scope-hoisting",
-    "forward": "ssh -R 4321:localhost:1234 root@yugz.com",
     "dev": "parcel src/index.html --log-level 4",
+    "start": "npm run dev",
     "deploy": "dotenv cross-var -- scp -r dist/* %DEPLOY_PATH%"
   },
   "dependencies": {
